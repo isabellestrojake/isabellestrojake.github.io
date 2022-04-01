@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+h1 {
+    font-family: 'Boogaloo', cursive;
+    color: #B38D97;
+    text-align: left;
+    font-size: 54px;
+}
+
+p.code {
+    font-family: 'Permanent Marker', cursive;
+    color: #9A98B5;
+}
+
+body {
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: #424B54;
+    color: #D5ACA9;
+    font-size: 20px;
+}
+
+h3.hab {
+    color: #B7FDFE;
+}
+
+a link{
+    color: #FFB8D1;
+}
+
+img {
+    border-radius: 5px 10px 20px 30px;
+    border-color: black;
+    border-style: solid;
+    width: 120px;
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p {
+    display:inline-block;
+    margin: 20px;
+    font-size: 22px;
+}
