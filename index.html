@@ -2,37 +2,72 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfólio de Isabelle Strojake, aluna de desenvolvimento web fullstack na Trybe">
     <title>Isabelle Strojake</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <a href="#Habilidades">Habilidades</a>
-    <a href="#Competências">Competências</a>
-    <h1><strong>Isabelle Strojake dos Reis</strong></h1>
-    <img src="images/Ise.jpg" alt="Foto de Isabelle" width="200px">
-    <p>Sou responsável e comunicativa. Dedicada ao aprendizado, tenho muita vontade de aprender.</p>
-    <p>Sou brasileira, moro em Patos de Minas MG. Aluna de desenvolvimento web fullstack na Trybe.</p>
-    <p><strong>Code like a girl!</strong></p>
-    <br>
-    <a href="https://www.linkedin.com/in/isabellestrojake/" target="_blank">
-    Linkedin</a><br>
-    <a href="https://github.com/isabellestrojake" target="_blank">GitHub</a>
-    <br><br>
-    <h3 id="Habilidades">Habilidades:</h3>
+  <header>
+  <nav id='menu'>
+    <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
     <ul>
-        <li><em>Proatividade</em></li>
-        <li>Flexibilidade</li>
-        <li>Facilidade de aprendizado</li>
-    </ul>
-    <h3 id="Competências">Competências:</h3>
-    <ul>
-        <li>GitHub;</li>
-        <li>HTML;</li>
-        <li>CSS;</li>
-    </ul>
-    <br><br>
-    <a href="https://jovemnerd.com.br/" target="_blank">Jovem Nerd</a>
+      <li><a href='https://isabellestrojake.github.io./'>Home</a></li>
+      <li><a class='dropdown-arrow' href='http://'>Sobre</a>
+        <ul class='sub-menus'>
+          <li><a href='#hab'>Habilidades</a></li>
+          <li><a href='#cont'>Projeto</a></li>
+        </ul>
+      </li>
+      <li><a class='dropdown-arrow'>Minhas Páginas</a>
+        <ul class='sub-menus'>
+          <li><a href='https://www.linkedin.com/in/isabellestrojake/'>Linkedin</a></li>
+          <li><a href='https://github.com/isabellestrojake'>GitHub</a></li>
+  </nav>
+  </header>
+  <section>
+    <h1 id="título1">Sou estudante de desenvolvimento fullstack na Trybe.</h1>
+  </section>
+  <div>
+    <img src="./images/Ise.jpeg" id="foto" width="280" alt="Foto de Isabelle">
+  </div>
+  <main>
+    <section id="lista">
+      <div id="lista-hab"><h3 id="hab">Habilidades</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>DOM</li>
+          <li>Jest</li>
+        </ul>
+      </div>
+      <div id="lista-cont">
+        <h3 id="cont">Conteúdo do Curso</h3>
+        <ul>
+          <li>Fundamentos de Desenvolvimento Web</li>
+          <li>Front-end</li>
+          <li>Back-end</li>
+          <li>Ciência da Computação</li>
+          <li>Softskills</li>
+        </ul>
+      </div>
+      </section>
+      <section id="projeto">
+        <div id="projeto-descricao">
+        <h3>Projeto em destaque</h3>
+        <h4>Trybewarts 🧙</h4>
+        <p>
+          Neste projeto trabalhamos em um formulário, que, ao receber os dados e escolhas do usuário e enviar o formulário, retorna os dados que foram enviados na tela.
+        </p>
+        </div>
+        <div>
+        <img src="./images/Trybewarts.png" alt="Trybewarts">
+        </div>
+      </section>
+  </main>
+<footer>
+  <p>Desenvolvido por Isabelle Strojake e atualizado conforme progresso no curso</p>
+  <p class="code"><strong>Code like a girl!</strong></p>
+</footer>
 </body>
 </html>
